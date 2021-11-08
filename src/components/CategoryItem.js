@@ -8,7 +8,7 @@ const CategoryItem = ({title, count, image, bgColor}) => {
                 <div className="card-body p-2 ml-1">
                     <span className="btn-round-xl bg-white">
                         <Avatar 
-                            image={`http://uitheme.net/elomoas/images/${image}`} 
+                            image={`./assets/images/${image}`} 
                             style={{opacity: 1}}
                             className="p-2"
                             shape="circle"

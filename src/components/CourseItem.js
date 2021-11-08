@@ -11,7 +11,7 @@ const CourseItem = ({title, count, image, bgColor}) => {
                 </a>
                 <a href="#" className="btn-round-xxxl rounded-lg ml-auto mr-auto" style={{backgroundColor: bgColor}} >
                     <Avatar 
-                        image={`http://uitheme.net/elomoas/images/${image}`} 
+                        image={`./assets/images/${image}`} 
                         style={{opacity: 1}}
                         className="p-1"
                         shape="circle"
