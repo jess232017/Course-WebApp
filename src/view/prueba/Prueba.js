@@ -1,5 +1,6 @@
 import React from 'react';
 import { MoreHorizontal } from 'react-feather';
+import CountDownTimer from '../../components/CountDownTimer';
 
 const Prueba = () => {
     return ( 
@@ -141,24 +142,7 @@ const Prueba = () => {
                     </span>
                     <div className="clearfix" />
                     <div className="card-body p-0 w250 ml-auto mr-auto">
-                        <div className="timer mt-4 mb-2">
-                        <div className="time-count">
-                            <span className="text-time">00</span>
-                            <span className="text-day">Dias</span>
-                        </div>
-                        <div className="time-count">
-                            <span className="text-time">00</span>
-                            <span className="text-day">Horas</span>
-                        </div>
-                        <div className="time-count">
-                            <span className="text-time">27</span>
-                            <span className="text-day">Min</span>
-                        </div>
-                        <div className="time-count">
-                            <span className="text-time">13</span>
-                            <span className="text-day">Seg</span>
-                        </div>
-                        </div>
+                        <CountDownTimer/>
                     </div>
                     <div className="clearfix" />
                     <a href="#" className="p-2 mt-4 d-inline-block text-white fw-700 lh-30 rounded-lg w200 text-center font-xsssss ls-3 bg-current">

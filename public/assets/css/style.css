@@ -15218,6 +15218,15 @@ select.sort {
     color: #000!important
 }
 
+.nav-tabs.white li a {
+    color: #fff!important;
+}
+
+.nav-tabs.white li a.active {
+    border-bottom: 2px #fff solid!important;
+    font-weight: 900;
+}
+
 .login-card {
     min-width: 380px;
     max-width: 400px

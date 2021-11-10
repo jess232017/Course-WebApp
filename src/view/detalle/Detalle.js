@@ -1,8 +1,8 @@
 import React from 'react';
 import { ArrowRightCircle, Bookmark, Check, Share } from 'react-feather';
 import { Link } from 'react-router-dom';
-import Acordion from '../../view/detalle/Acordion';
-import ModulItem from '../../view/detalle/ModulItem';
+import CourseContent from '../../components/CourseContent';
+import ModulItem from '../../components/ModulItem';
 
 const Detalle = () => {
     return ( 
@@ -50,28 +50,7 @@ const Detalle = () => {
                     <div className="col-xl-8 col-xxl-9 col-lg-8">
                         
                         <div className="card d-block border-0 rounded-lg overflow-hidden mt-4">
-                        <div id="accordion" className="accordion mb-0">
-                            <Acordion title="Introducion al curso" order={1}>
-                                <ModulItem order={1} title="Introducion al curso" duration="12:34"/>
-                                <ModulItem order={2} title="Estrategias para aprender mejor" duration="12:34"/>
-                            </Acordion>
-                            <Acordion title="Primeros pasos con JavaScript" order={2}>
-                                <ModulItem order={1} title="Introducion al curso" duration="12:34"/>
-                                <ModulItem order={2} title="Estrategias para aprender mejor" duration="12:34"/>
-                            </Acordion>
-                            <Acordion title="Estructuras de control" order={3}>
-                                <ModulItem order={1} title="Introducion al curso" duration="12:34"/>
-                                <ModulItem order={2} title="Estrategias para aprender mejor" duration="12:34"/>
-                            </Acordion>
-                            <Acordion title="Funciones y metodos" order={4}>
-                                <ModulItem order={1} title="Introducion al curso" duration="12:34"/>
-                                <ModulItem order={2} title="Estrategias para aprender mejor" duration="12:34"/>
-                            </Acordion>
-                            <Acordion title="Ejercicios de programacion" order={5}>
-                                <ModulItem order={1} title="Introducion al curso" duration="12:34"/>
-                                <ModulItem order={2} title="Estrategias para aprender mejor" duration="12:34"/>
-                            </Acordion>
-                        </div>
+                            <CourseContent/>
                         </div>
                         <div className="card d-block border-0 rounded-lg overflow-hidden p-4 shadow-xss mt-4 alert-success">
                             <h2 className="fw-700 font-sm mb-3 mt-1 pl-1 text-success mb-4">
@@ -131,36 +110,12 @@ const Detalle = () => {
                                     <ArrowRightCircle className="text-grey-500 font-xss"/>
                                 </Link>
                             </h4>
-                            <ModulItem
-                                order={1}
-                                title="Introduccion"
-                                duration="12:34"
-                            />
-                            <ModulItem
-                                order={2}
-                                title="Variables"
-                                duration="12:34"
-                            />
-                            <ModulItem
-                                order={3}
-                                title="Operadores"
-                                duration="12:34"
-                            />
-                            <ModulItem
-                                order={4}
-                                title="Arreglos"
-                                duration="12:34"
-                            />
-                            <ModulItem
-                                order={5}
-                                title="Iteradores"
-                                duration="12:34"
-                            />
-                            <ModulItem
-                                order={6}
-                                title="Funciones"
-                                duration="12:34"
-                            />
+                            <ModulItem order={1} title="Introduccion" duration="12:34"/>
+                            <ModulItem order={2} title="Variables" duration="12:34"/>
+                            <ModulItem order={3} title="Operadores" duration="12:34"/>
+                            <ModulItem order={4} title="Arreglos"  duration="12:34"/>
+                            <ModulItem order={5} title="Iteradores" duration="12:34"/>
+                            <ModulItem order={6} title="Funciones" duration="12:34"/>
                         </div>
 
                         <div className="card w-100 border-0 mt-0 mb-4 p-4 shadow-xss position-relative rounded-lg bg-white">
