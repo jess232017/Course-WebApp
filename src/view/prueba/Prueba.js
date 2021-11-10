@@ -1,4 +1,5 @@
 import React from 'react';
+import { MoreHorizontal } from 'react-feather';
 
 const Prueba = () => {
     return ( 
@@ -7,26 +8,19 @@ const Prueba = () => {
                 <div className="card mb-4 d-block w-100 shadow-xss rounded-lg p-5 border-0 text-left question-div">
                     <div className="card-body p-0" id="question1">
                         <h4 className="font-xssss text-uppercase text-current fw-700 ls-3">
-                        Pregunta 1
+                            Pregunta 3
                         </h4>
                         <h3 className="font-sm text-grey-800 fw-700 lh-32 mt-4 mb-4">
-                        What is the name of the first page you encounter after logging into
-                        your web page?
+                            ¿Es posible hacer que se ejecute un formulario por JavaScript?
                         </h3>
                         <p className="bg-lightblue theme-dark-bg  p-4 mt-3 question-ans style1 rounded-lg font-xsss fw-600 lh-30 text-grey-700 mb-0 p-2">
-                        I have a Business Management degree from Bangalore University and a
-                        long time Excel expert. I create professional Excel reports/dashboards
-                        for clients and conduct Excel workshops for business professionals.
+                            No, esa función sólo puede realizarse mediante código PHP, y se ha de realizar por tanto en el servidor.
                         </p>
                         <p className="bg-lightblue theme-dark-bg  p-4 mt-3 question-ans style1 rounded-lg font-xsss fw-600 lh-30 text-grey-700 mb-0 p-2">
-                        I have a Business Management degree from Bangalore University and a
-                        long time Excel expert. I create professional Excel reports/dashboards
-                        for clients and conduct Excel workshops for business professionals.
+                            Sí, de hecho los formularios se crean con código Javascript, por lo que es el propio Javascript el que los ejecuta.
                         </p>
-                        <p className="bg-lightblue theme-dark-bg  p-4 mt-3 question-ans style1 rounded-lg font-xsss fw-600 lh-30 text-grey-700 mb-0 p-2">
-                        I have a Business Management degree from Bangalore University and a
-                        long time Excel expert. I create professional Excel reports/dashboards
-                        for clients and conduct Excel workshops for business professionals.
+                        <p className="bg-lightblue theme-dark-bg  p-4 mt-3 question-ans style1 rounded-lg font-xsss fw-600 lh-30 text-grey-700 mb-0 p-2 active">
+                            Sí, por ejemplo basta con pasarle a una función Javascript el identificador del formulario, y aplicarle el comando “submit” para ejecutar ese formulario
                         </p>
                         <a href="#"  data-question="question2" className="next-bttn p-2 mt-3 d-inline-block text-white fw-700 lh-30 rounded-lg w200 text-center font-xsssss ls-3 bg-current">
                             SIGUIENTE
@@ -128,49 +122,48 @@ const Prueba = () => {
 
             <div className="col-xxl-4 col-xl-5 col-md-12">
                 <div className="card mb-4 d-block w-100 shadow-xss rounded-lg p-md-5 p-4 border-0 text-center">
-                <a href="#" className="position-absolute right-0 mr-4 top-0 mt-3">
-                    <i className="ti-more text-grey-500 font-xs" />
-                </a>
-                <img src="assets/images/fogg-clip.png" alt="icon" className="p-1 img-fluid" />
-                <h4 className="fw-700 font-xs mt-4">Bootstrap Framework</h4>
-                <div className="clearfix" />
-                <span className="font-xsssss fw-700 pl-3 pr-3 lh-32 text-uppercase rounded-lg ls-2 alert-success d-inline-block text-success mr-1">
-                    Completo
-                </span>
-                <span className="font-xsssss fw-700 pl-3 pr-3 lh-32 text-uppercase rounded-lg ls-2 bg-lightblue d-inline-block text-grey-800 mr-1">
-                    Diseño
-                </span>
-                <span className="font-xsssss fw-700 pl-3 pr-3 lh-32 text-uppercase rounded-lg ls-2 alert-info d-inline-block text-info">
-                    30 Min
-                </span>
-                <div className="clearfix" />
-                <div className="card-body p-0 w250 ml-auto mr-auto">
-                    <div className="timer mt-4 mb-2">
-                    <div className="time-count">
-                        <span className="text-time">00</span>
-                        <span className="text-day">Dias</span>
+                    <a href="#" className="position-absolute right-0 mr-4 top-0 mt-3">
+                        <MoreHorizontal className="text-grey-500 font-xs"/>
+                    </a>
+                    <img src="assets/images/fogg-clip.png" alt="icon" className="p-1 img-fluid" />
+                    <h4 className="fw-700 font-xs mt-4">
+                        JavaScript Moderno
+                    </h4>
+                    <div className="clearfix" />
+                    <span className="font-xsssss fw-700 pl-3 pr-3 lh-32 text-uppercase rounded-lg ls-2 alert-warning d-inline-block text-warning mr-1">
+                        Intermedio
+                    </span>
+                    <span className="font-xsssss fw-700 pl-3 pr-3 lh-32 text-uppercase rounded-lg ls-2 bg-lightblue d-inline-block text-grey-800 mr-1">
+                        Programacion
+                    </span>
+                    <span className="font-xsssss fw-700 pl-3 pr-3 lh-32 text-uppercase rounded-lg ls-2 alert-info d-inline-block text-info">
+                        30 Min
+                    </span>
+                    <div className="clearfix" />
+                    <div className="card-body p-0 w250 ml-auto mr-auto">
+                        <div className="timer mt-4 mb-2">
+                        <div className="time-count">
+                            <span className="text-time">00</span>
+                            <span className="text-day">Dias</span>
+                        </div>
+                        <div className="time-count">
+                            <span className="text-time">00</span>
+                            <span className="text-day">Horas</span>
+                        </div>
+                        <div className="time-count">
+                            <span className="text-time">27</span>
+                            <span className="text-day">Min</span>
+                        </div>
+                        <div className="time-count">
+                            <span className="text-time">13</span>
+                            <span className="text-day">Seg</span>
+                        </div>
+                        </div>
                     </div>
-                    <div className="time-count">
-                        <span className="text-time">00</span>
-                        <span className="text-day">Horas</span>
-                    </div>
-                    <div className="time-count">
-                        <span className="text-time">00</span>
-                        <span className="text-day">Min</span>
-                    </div>
-                    <div className="time-count">
-                        <span className="text-time">00</span>
-                        <span className="text-day">Seg</span>
-                    </div>
-                    </div>
-                </div>
-                <div className="clearfix" />
-                <a
-                    href="#"
-                    className="p-2 mt-4 d-inline-block text-white fw-700 lh-30 rounded-lg w200 text-center font-xsssss ls-3 bg-current"
-                >
-                    APPLIED
-                </a>
+                    <div className="clearfix" />
+                    <a href="#" className="p-2 mt-4 d-inline-block text-white fw-700 lh-30 rounded-lg w200 text-center font-xsssss ls-3 bg-current">
+                        Entregar
+                    </a>
                 </div>
             </div>
         </div>

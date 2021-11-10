@@ -1,6 +1,6 @@
 import React from 'react';
-import DesktopFooter from 'src/layout/Footer/DesktopFooter';
-import MobileFooter from 'src/layout/Footer/MobileFooter';
+import DesktopFooter from '../../layout/Footer/DesktopFooter';
+import MobileFooter from '../../layout/Footer/MobileFooter';
 
 const Footer = () => {
     return ( 
