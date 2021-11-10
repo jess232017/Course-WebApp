@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Content from './layout/Content';
-import Footer from './layout/Footer';
+import Footer from './layout/Footr';
 import Header from './layout/Header';
 
 import 'primereact/resources/themes/bootstrap4-light-blue/theme.css';
