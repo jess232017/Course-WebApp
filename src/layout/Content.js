@@ -1,9 +1,9 @@
 import React from 'react';
 
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-import Inicio from "../view/inicio/Inicio"
-import Prueba from "../view/prueba/Prueba"
-import Detalle from "../view/detalle/Detalle"
+import Detalle from "src/view/detalle/Detalle";
+import Inicio from "src/view/inicio/Inicio";
+import Prueba from "src/view/prueba/Prueba";
 
 const Content = () => {
     return ( 

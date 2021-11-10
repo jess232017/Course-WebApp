@@ -1,5 +1,5 @@
 import React from 'react';
-import ItemActivity from './ItemActivity';
+import ItemActivity from 'src/layout/Header/ItemActivity';
 
 const Actividad = () => {
     return ( 

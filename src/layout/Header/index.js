@@ -1,7 +1,7 @@
 import React from 'react';
 import { Activity, ChevronDown, MessageSquare, Settings } from 'react-feather';
-import Actividad from './Actividad';
-import Mensaje from './Mensaje';
+import Actividad from 'src/layout/Header/Actividad';
+import Mensaje from 'src/layout/Header/Mensaje';
 
 const Header = () => {
     return ( 

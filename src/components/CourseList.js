@@ -1,7 +1,7 @@
 import React from 'react';
 import { Carousel } from 'primereact/carousel';
 
-import CourseItem from './CourseItem';
+import CourseItem from 'src/components/CourseItem';
 
 const create = (title, count, image, bgColor) => ({title, count, image, bgColor})
 

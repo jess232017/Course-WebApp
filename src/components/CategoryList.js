@@ -1,7 +1,7 @@
 import React from 'react';
 import { Carousel } from 'primereact/carousel';
 
-import CategoryItem from './CategoryItem';
+import CategoryItem from 'src/components/CategoryItem';
 
 const create = (title, count, image, bgColor) => ({title, count, image, bgColor})
 

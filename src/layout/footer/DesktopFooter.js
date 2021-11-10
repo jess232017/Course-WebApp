@@ -29,7 +29,7 @@ const DesktopFooter = () => {
                         <div className="col-md-12 col-lg-4 col-sm-9 col-xs-12 sm-mb-4">
                             <a href="index.html">
                                 <h1 className="fredoka-font ls-3 fw-700 text-white font-xxl">U-Nica
-                                    <span className="d-block font-xsssss ls-1 text-grey-500 open-font ">Cursos de aprendizaje en linea</span>
+                                    <span className="d-block font-xsssss ls-1 text-grey-500 open-font ">Motor de aprendizaje en linea</span>
                                 </h1>
                             </a>
                             
@@ -45,6 +45,13 @@ const DesktopFooter = () => {
                         <div className="col-md-3 col-lg-2 col-sm-4 col-xs-6">
                         </div>
                         <div className="col-md-3 col-lg-2 col-sm-4 col-xs-6">
+                            <h5>Creado Por</h5>
+                            <ul>
+                                <li><a href="#">Jesus Hernandez</a></li>
+                                <li><a href="#">Danilo Acevedo</a></li>
+                                <li><a href="#">Darwin Mareina</a></li>
+                                <li><a href="#">Juan Lopez</a></li>
+                            </ul>
                         </div>
                         <div className="col-md-3 col-lg-2 col-sm-3 col-xs-6 md-mb-2">
                             <h5>Idiomas</h5>

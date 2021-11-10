@@ -1,8 +1,8 @@
 import React from 'react';
 import { ArrowRightCircle, Bookmark, Check, Share } from 'react-feather';
 import { Link } from 'react-router-dom';
-import Acordion from './Acordion';
-import ModulItem from './ModulItem';
+import Acordion from 'src/view/detalle/Acordion';
+import ModulItem from 'src/view/detalle/ModulItem';
 
 const Detalle = () => {
     return ( 
