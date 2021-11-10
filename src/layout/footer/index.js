@@ -1,6 +1,6 @@
 import React from 'react';
 import DesktopFooter from './DesktopFooter';
-import MobileFooter from '../MobileFooter';
+import MobileFooter from './MobileFooter';
 
 const Footer = () => {
     return ( 
