@@ -1,6 +1,7 @@
 import React from 'react';
 import { Avatar } from 'primereact/avatar';
 import { MoreHorizontal } from 'react-feather';
+import { Link } from 'react-router-dom';
 
 const CourseItem = ({title, count, image, bgColor}) => {
     return ( 
@@ -35,9 +36,9 @@ const CourseItem = ({title, count, image, bgColor}) => {
                     18:30 Horas
                 </span>
                 <div className="clearfix" />
-                <a href="#" className="p-2 mt-4 d-inline-block text-white fw-700 lh-30 rounded-lg w200 text-center font-xsssss ls-3 bg-current">
+                <Link to="/detalle" className="p-2 mt-4 d-inline-block text-white fw-700 lh-30 rounded-lg w200 text-center font-xsssss ls-3 bg-current">
                     APLICAR AHORA
-                </a>
+                </Link>
             </div>
         </div>
     );

@@ -5,7 +5,7 @@ import { Search, Package } from 'react-feather';
 
 const SearchHero = () => {
     return ( 
-        <div className="card rounded-xxl p-lg--5 border-0 bg-no-repeat bg-image-contain banner-wrap" style={{backgroundImage: 'url(./assets/images/fogg-clip.png)'}}>
+        <div className="card rounded-xxl p-lg--5 border-0 bg-no-repeat bg-image-contain banner-wrap m-4" style={{backgroundImage: 'url(./assets/images/fogg-clip.png)'}}>
             <div className="card-body p-4">
                 <h2 className="display3-size fw-400 display2-md-size sm-mt-7 sm-pt-10">
                     Encuentra el curso <b className="d-lg-block">Perfecto en linea</b>
